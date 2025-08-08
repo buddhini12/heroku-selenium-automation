@@ -66,6 +66,11 @@ public class HomePage {
         return new MultipleWindowsPage(driver);
     }
 
+    public AddRemovePage clickAddRemove(){
+        clickLink("Add/Remove Elements");
+        return new AddRemovePage(driver);
+    }
+
     private void clickLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();
     }

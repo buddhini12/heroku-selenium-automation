@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="alerts.AlertTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testAcceptAlert"/>
+          <include name="recordFailure"/>
+          <include name="goHome"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- alerts.AlertTests -->
+      <class name="navigation.NavigationTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSwitchTab"/>
+          <include name="recordFailure"/>
+          <include name="goHome"/>
+          <include name="setUp"/>
+          <include name="testNavigator"/>
+        </methods>
+      </class> <!-- navigation.NavigationTests -->
+      <class name="alerts.FileUploadTests">
+        <methods>
+          <include name="testFileUpload"/>
+          <include name="tearDown"/>
+          <include name="recordFailure"/>
+          <include name="goHome"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- alerts.FileUploadTests -->
+      <class name="frames.FrameTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="recordFailure"/>
+          <include name="goHome"/>
+          <include name="setUp"/>
+          <include name="testWysiwyg"/>
+        </methods>
+      </class> <!-- frames.FrameTests -->
+      <class name="keys.KeysTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testPi"/>
+          <include name="recordFailure"/>
+          <include name="goHome"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- keys.KeysTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
