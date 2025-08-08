@@ -2,11 +2,18 @@
 <suite name="AllTestsSuite" verbose="1" parallel="false">
     <test name="UI Functional Tests">
         <classes>
-            <!-- Replace with your actual test class package names -->
-            <class name="navigation.NavigationTests"/>
-<!--            <class name="your.package.name.AnotherTestClass"/>-->
-<!--            <class name="your.package.name.KeyPressesTests"/>-->
-<!--            <class name="your.package.name.LargeDomTests"/>-->
+<!--            <class name="addRemoveElements.AddRemoveElementsTests"/>-->
+<!--            <class name="alerts.AlertTests"/>-->
+<!--            <class name="alerts.FileUploadTests"/>-->
+            <class name="base.BaseTests"/>
+            <class name="dropdown.DropdownTests"/>
+<!--            <class name="frames.FrameTests"/>-->
+<!--            <class name="hover.HoverTests"/>-->
+<!--            <class name="javascript.JavaScriptTests"/>-->
+<!--            <class name="keys.KeysTests"/>-->
+            <class name="login.LoginTests"/>
+<!--            <class name="navigation.NavigationTests"/>-->
+<!--            <class name="wait.WaitTests"/>-->
         </classes>
     </test>
 </suite>
