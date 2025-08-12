@@ -1,4 +1,4 @@
-# Heroku Web Automation
+# Heroku Web Automation Exercises
 
 This project automates testing for a sample Heroku-hosted web application using Java, Selenium WebDriver, and TestNG (or JUnit). It includes test cases for verifying various UI components and features such as dynamic elements, form handling, and navigation.
 
